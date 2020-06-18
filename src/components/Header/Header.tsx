@@ -11,6 +11,21 @@ export const Header: React.FC = () => (
 			<li className={style('element')}>
 				<Link to="/characters">Characters</Link>
 			</li>
+			<li className={style('element')}>
+				<Link to="/films">Films</Link>
+			</li>
+			<li className={style('element')}>
+				<Link to="/starships">Starships</Link>
+			</li>
+			<li className={style('element')}>
+				<Link to="/vehicles">Vehicles</Link>
+			</li>
+			<li className={style('element')}>
+				<Link to="/species">Species</Link>
+			</li>
+			<li className={style('element')}>
+				<Link to="/planets">Planets</Link>
+			</li>
 		</ul>
 	</nav>
 );
